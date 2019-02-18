@@ -29,7 +29,7 @@ export default {
 
 body {
   width: 100%;
-  height: 160vh;
+  height: 200vh;
   font-family: 'Roboto', sans-serif;
 }
 

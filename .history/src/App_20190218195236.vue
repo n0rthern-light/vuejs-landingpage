@@ -2,21 +2,17 @@
   <div id="app">
     <Navbar/>
     <LandingComponent/>
-    <BelowContent/>
   </div>
 </template>
 
 <script>
 import LandingComponent from '@/components/LandingComponent.vue';
 import Navbar from '@/components/Navbar.vue';
-import BelowContent from '@/components/BelowContent.vue';
-
 export default {
   name: 'app',
   components: {
     LandingComponent,
-    Navbar,
-    BelowContent
+    Navbar
   }
 }
 </script>
@@ -29,8 +25,7 @@ export default {
 
 body {
   width: 100%;
-  height: 160vh;
-  font-family: 'Roboto', sans-serif;
+  height: 2400px;
 }
 
 .disHighlight{
